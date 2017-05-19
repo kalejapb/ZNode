@@ -10,11 +10,11 @@ program
   .option('-m, --masa <n>', 'Masa (kg)', parseInt)
   .parse(process.argv);
 
-var imc = imc.calcularImc(program.altura, program.masa);
+var imcValue = imc.calcularImc(program.altura, program.masa);
 
 console.log(moment().format('LLL'));
 console.log(process.env.USER);
-console.log("Imc " + imc);
+console.log("Imc " + imcValue);
 
-validate.validarClasificacionPorIMC(imc);
+validate.validarClasificacionPorIMC(imcValue);
   
