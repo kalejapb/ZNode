@@ -1,0 +1,22 @@
+{
+  "name": "error-invocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandra Prieto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
